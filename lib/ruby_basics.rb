@@ -11,7 +11,7 @@ def argue(argument)
 end
 
 def greeting (greeting, name)
-  return (greeting, name)
+  return (greeting,name)
 end
 
 def return_a_value
@@ -22,6 +22,6 @@ def last_evaluated_value
  return "expert"
 end
 
-def pizza_party(cheese)
- return cheese
+def pizza_party(topping =cheese)
+ return topping
 end
